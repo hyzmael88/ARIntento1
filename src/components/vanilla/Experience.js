@@ -21,7 +21,7 @@ class ARExperience{
              this.renderer = new THREE.WebGLRenderer()
              this.renderer.setSize(window.innerWidth, window.innerHeight)
              this.renderer.setPixelRatio(1)
-             this.container.appendChilde(this.renderer.domElement)
+             this.container.appendChild(this.renderer.domElement)
 
              //cube
              //tamano esta en metros
