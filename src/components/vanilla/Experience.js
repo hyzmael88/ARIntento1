@@ -23,6 +23,8 @@ class ARExperience{
              this.renderer.setPixelRatio(1)
              this.container.appendChild(this.renderer.domElement)
 
+            
+
              //cube
              //tamano esta en metros
              const mesh = new THREE.Mesh(

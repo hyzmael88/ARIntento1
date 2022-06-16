@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { ARExperience } from './Experience'
 
 export default function ARComponents() {
     const arExperience = new ARExperience()
     
+useEffect(() =>{
+  arExperience.initScene()
+},[])
+
   return (
     <div
     className='container3D'
@@ -12,6 +16,6 @@ export default function ARComponents() {
         height: "100vh",
     }}
     
-    >ARComponents</div>
+    ></div>
   )
 }
